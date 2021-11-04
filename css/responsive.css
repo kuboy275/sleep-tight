@@ -1,0 +1,100 @@
+@media (max-width:990px) {
+    .font-80px {
+        font-size: 60px;
+    }
+    header .header-logo {
+        width: 80px;
+    }
+    .share {
+        margin-top: 30px;
+    }
+    .share .share-more {
+        width: 200px;
+        height: 100%;
+    }
+    .share .share-more a {
+        border-bottom: none;
+        border-right: 1px solid var(--bg-footer);
+    }
+    .share .share-more a:first-child {
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: unset;
+    }
+    .share .share-more a:last-child {
+        border-right: none;
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        border-bottom-left-radius: unset;
+    }
+}
+
+@media (max-width:767px) {
+    .blog-comment .item-cmt p {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:575px) {
+    .font-80px {
+        font-size: 45px;
+    }
+    header .header-logo {
+        width: 60px;
+    }
+    footer .copy-right .icon-social a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 18px;
+        background-color: #6161614A;
+    }
+    .login .login-form .login-other .btn {
+        padding: 8px 25px;
+        font-size: 18px;
+    }
+    .login .login-form .login-other .btn i {
+        margin-left: 20px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:374px) {
+    .login .login-form .login-other .btn {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    .login .login-form .login-other .btn i {
+        margin-left: 0px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+}
+
+
+/* @media (max-width:990px) {
+    header .navbar .navbar-toggler {
+        top: -90px;
+    }
+}
+
+@media (max-width:768px) {
+    header .navbar .navbar-toggler {
+        top: -70px;
+    }
+}
+
+@media (max-width:567px) {
+    header .navbar .navbar-toggler {
+        top: -40px;
+    }
+}
+
+@media (max-width:450px) {
+    header .navbar .navbar-toggler {
+        top: -30px;
+    }
+} */
