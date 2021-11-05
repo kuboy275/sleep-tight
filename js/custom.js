@@ -1,22 +1,23 @@
 $(document).ready(function() {
     // Scroll Nav bar
+    let lastScrollTop = 20;
     $(window).scroll(function(e) {
-        var st = $(this).scrollTop();
-        if (st > 100) {
-            $('.header-nav').addClass('fixed');
-        } else {
+        let scrollTop = $(this).scrollTop();
+        if (scrollTop > lastScrollTop) {
             $('.header-nav').removeClass('fixed');
-
+        } else if (scrollTop < lastScrollTop) {
+            $('.header-nav').addClass('fixed');
         }
+        if (scrollTop <= $('header').height()) {
+            $('.header-nav').removeClass('fixed');
+        }
+        lastScrollTop = scrollTop;
     })
 
     // open and close social share btn
     let btnOpenShareMore = $('.btn-open-share');
     let btnCloseShareMore = $('.btn-close-share');
     let shareMore = $('.share-more');
-
-
-
 
     btnOpenShareMore.each(function(index) {
         $(this).on('click', function(e) {
