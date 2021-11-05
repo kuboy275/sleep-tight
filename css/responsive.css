@@ -35,14 +35,14 @@
     .login .login-form .login-other .btn i {
         margin-left: 90px;
     }
+    header.home {
+        height: auto;
+    }
 }
 
 @media (max-width:767px) {
     .blog-comment .item-cmt p {
         margin-left: 0;
-    }
-    header.header-banner {
-        height: 120vh;
     }
     .font-50px {
         font-size: 35px;
@@ -50,6 +50,13 @@
     .login .login-form .login-other .btn i {
         margin-left: 50px;
         font-size: 20px;
+    }
+    img.banner-sounds,
+    img.banner-relax {
+        width: 65%;
+    }
+    img.banner-better {
+        width: 80%;
     }
 }
 
@@ -77,9 +84,6 @@
     header .navbar .navbar-toggler {
         top: -50px;
     }
-    header.header-banner {
-        height: 100vh;
-    }
 }
 
 @media (max-width:420px) {
@@ -104,28 +108,3 @@
         margin-right: 5px;
     }
 }
-
-
-/* @media (max-width:990px) {
-    header .navbar .navbar-toggler {
-        top: -90px;
-    }
-}
-
-@media (max-width:768px) {
-    header .navbar .navbar-toggler {
-        top: -70px;
-    }
-}
-
-@media (max-width:567px) {
-    header .navbar .navbar-toggler {
-        top: -40px;
-    }
-}
-
-@media (max-width:450px) {
-    header .navbar .navbar-toggler {
-        top: -30px;
-    }
-} */

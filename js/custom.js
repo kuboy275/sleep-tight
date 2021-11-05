@@ -2,6 +2,7 @@ $(document).ready(function() {
     // Scroll Nav bar
     let lastScrollTop = 20;
     $(window).scroll(function(e) {
+        $('.header-nav .navbar-collapse').removeClass('show');
         let scrollTop = $(this).scrollTop();
         if (scrollTop > lastScrollTop) {
             $('.header-nav').removeClass('fixed');
